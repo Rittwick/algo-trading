@@ -1,5 +1,5 @@
 @rem
-@rem Copyright 2015 the original author or authors.
+@rem Copyright 2022 the original author or authors and contrubutions.
 @rem
 @rem Licensed under the Apache License, Version 2.0 (the "License");
 @rem you may not use this file except in compliance with the License.
@@ -29,6 +29,9 @@ if "%DIRNAME%" == "" set DIRNAME=.
 set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%
 
+
+Distributed version control: Create a private Git repository for each assignment on https://git.iitd.ac.in/ and add me and the TAs (narain, csz228228, mcs212155) as viewers. All code sharing should be carried out through this Git repository, not by emailing code files back and forth between each other. You will be asked to show the Git history during your demo. Note: to prove that you have gone through this entire course webpage, send an email to me with the word ‘esquivalience’ as the subject line before the first lecture.
+
 @rem Resolve any "." and ".." in APP_HOME to make it shorter.
 for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
 
@@ -41,6 +44,10 @@ if defined JAVA_HOME goto findJavaFromJavaHome
 set JAVA_EXE=java.exe
 %JAVA_EXE% -version >NUL 2>&1
 if "%ERRORLEVEL%" == "0" goto execute
+
+your submission.
+
+Coding style: Find a coding style guide that all of your team members can agree on (or at least tolerate), and try to stick to it. This will minimize inconsistency between code written by different people. To start with, you can consider one of Google’s many style guides, for example for C++, Java, and Python.
 
 echo.
 echo ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
